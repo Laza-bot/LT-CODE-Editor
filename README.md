@@ -3,6 +3,10 @@
 LT-CODE-Editor is a **code editor** developed using **Godot GDScript** and **Rust** (compiled to GDScript). It is specifically designed for **LT-Language**.  
 This editor includes various features that enhance the coding experience, such as an integrated calculator, notes, a color picker, and expandable keyword support.
 
+Language this code editor is for:
+
+https://github.com/Laza-bot/LT-Language
+
 ## ✨ Features
 
 - 🖥 **Code Editing** – For LT-Language with syntax highlighting  
