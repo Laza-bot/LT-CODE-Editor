@@ -1,0 +1,10 @@
+RUN("exsample_code/LT.LT")
+LOAD("exsample_code/LT.DRAW")
+
+
+FOR i = 1 TO 51 THEN; PRINT(i); END
+
+LBT_DRAW CLEAR
+
+LBT_DRAW FORWARD(1)
+LBT_DRAW RIGHT(1)

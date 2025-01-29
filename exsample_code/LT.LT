@@ -1,0 +1,111 @@
+
+PRINT("LT")
+# PRINNTS LT
+
+VAR pi = MATH_PI
+PRINT(pi)
+#PRINTS PI
+
+
+# LISTS
+VAR ABCD = ["A", "B", "C", "D"]
+PRINT(ABCD)
+
+VAR EFGH = ["E", "F", "G", "H"]
+
+
+EXTEND(ABCD, EFGH)
+PRINT(ABCD)
+
+APPEND(ABCD, "I")
+PRINT(ABCD)
+
+POP(ABCD, 0)
+PRINT(ABCD)
+
+
+VAR numbers = []
+FOR i = 1 TO 21 THEN
+    APPEND(numbers, i)
+    PRINT(numbers)
+END
+
+
+
+
+# COMENTS DO NOTHINT
+
+VAR FIRST = INPUT_INT()
+VAR SECOND = INPUT_INT()
+
+PRINT(FIRST + SECOND)
+
+
+PRINT(IS_NUM(2))
+PRINT(IS_NUM("LAZAR"))
+
+PRINT(IS_STR(2))
+PRINT(IS_STR("LAZAR"))
+
+
+VAR x = 3
+IF x == 5 THEN
+    PRINT("X IS 5")
+ELSE
+    PRINT("X IS NOT 5")
+END
+
+
+VAR INPUT_NUM = INPUT_INT()
+IF INPUT_NUM > 10 THEN
+    PRINT("YOUR NUMBER IS BIGGER THEN 10")
+ELSE IF INPUT_NUM == 10 THEN 
+    PRINT("YOUR NUMBER IS 10")
+ELSE
+    PRINT("YOUR NUMBER IS SMALLER THEN 10")
+END
+
+
+VAR result = 2^20
+PRINT(result)
+
+FOR i = 1 TO 51 THEN
+    PRINT(i)
+END
+
+VAR n = 1
+WHILE n < 11 THEN
+    PRINT(n)
+    VAR n = n+1
+END
+
+
+
+FUN add(a, b)
+	RETURN a + b
+END
+
+FUN multiply(a, b)
+	RETURN a * b
+END
+
+VAR result_add = add(5, 7)
+PRINT(result_add)  # Output: 12
+
+VAR result_multiply = multiply(7, 5)
+PRINT(result_multiply)  # Output: 35
+
+
+
+VAR total = 0
+
+FOR i = 1 TO 10 THEN
+    VAR current = i
+    VAR total = add(total, current)
+END
+
+PRINT("The SUM of numbers from 1 to 10 is: ")
+PRINT(total)
+
+
+

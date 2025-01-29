@@ -1,0 +1,13 @@
+FOR i = 1 TO 21 THEN
+    PRINT(i)
+END
+
+VAR INPUT_NUM = INPUT_INT()
+IF INPUT_NUM > 10 THEN
+    RUN("exsample_code/LT.LT")
+ELSE IF INPUT_NUM == 10 THEN 
+    PRINT("YOUR NUMBER IS 10")
+ELSE
+    RUN("exsample_code/factorial.LT")
+END
+
